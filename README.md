@@ -1,4 +1,10 @@
 # galaxyzoo-classification
-An AI-based System To Classify Galaxies Based on Morphologies
 
-I made this project as part of my Master's dissertation 
+<h3> An AI-based System to Classify Galaxies Based on Morphologies
+
+I created this project to fulfil the requirements for my Master's degree in Data Science and Artificial Intelligence from Bournemouth University. I aimed to understand, measure, and compare the performance of a pre-trained ResNet50 model, a custom CNN model, and an ensemble of the two. I utilised a modified version of the Galaxy Zoo 2 dataset (Willett et al., 2013), released by Hart et al. (2016). This newer dataset is corrected for the redshift-dependent bias in the GZ2 dataset. I also utilised a modified version of the Willett et al. (2013) decision algorithm to classify galaxies based on morphologies.
+
+<img width="1004" height="755" alt="image" src="https://github.com/user-attachments/assets/92f4b3fb-a7cd-4194-8da8-b3df5dcc50d2" />
+
+Performance metrics, including accuracy and root mean square error (RMSE), were employed to compare the models. ResNet50, leveraging residual learning and its deeper architecture, showed superior performance, achieving a lower RMSE and higher accuracy compared to the custom CNN, which struggled with feature extraction due to its limited depth and complexity. The ensemble model, which combined the outputs of both CNNs, exhibited only slight performance gains, indicating limited diversity in feature learning between the models.
+The study concludes that while ensemble learning can enhance model robustness, its performance gains in this context were minimal. The research highlights the need for more complex architectures and improved ensemble strategies to leverage the potential of AI in galaxy morphology classification. Additionally, future work could explore domain adaptation and more sophisticated preprocessing techniques to improve model generalisation across varied astronomical datasets.
