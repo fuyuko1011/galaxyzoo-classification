@@ -8,4 +8,4 @@ Performance metrics, including accuracy and root mean square error (RMSE), were 
 
 The study concludes that while ensemble learning can enhance model robustness, its performance gains in this context were minimal. The research highlights the need for more complex architectures and improved ensemble strategies to leverage the potential of AI in galaxy morphology classification. Additionally, future work could explore domain adaptation and more sophisticated preprocessing techniques to improve model generalisation across varied astronomical datasets.
 
-TL; Dr: The ensemble works, but it's a bit shoddy (peaking at ~70% accuracy). It could be down to an inadequate data pipeline, or, as my supervisor suggested, the underlying incompatibilities between the ResNet50 model and the custom CNN I built for this project.
+TL; Dr: The ensemble works, but it's a bit shoddy (peaking at ~70% accuracy). It could be down to an inadequate data pipeline, or, as my dissertation supervisor suggested, the underlying incompatibilities between the ResNet50 model and the custom CNN I built for this project.
